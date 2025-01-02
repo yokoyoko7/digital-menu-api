@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://digital-menu-sandy.vercel.app",
+    origin: "https://digital-menu-1dist.onrender.com",
   })
 );
 app.use(express.json());
